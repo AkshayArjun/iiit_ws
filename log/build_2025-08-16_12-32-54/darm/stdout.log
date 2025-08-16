@@ -1,0 +1,394 @@
+running develop
+running egg_info
+writing darm.egg-info/PKG-INFO
+writing dependency_links to darm.egg-info/dependency_links.txt
+writing entry points to darm.egg-info/entry_points.txt
+writing requirements to darm.egg-info/requires.txt
+writing top-level names to darm.egg-info/top_level.txt
+reading manifest file 'darm.egg-info/SOURCES.txt'
+writing manifest file 'darm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages/darm.egg-link (link to .)
+
+Installed /home/akshay/iiit_ws/build/darm
+running symlink_data
+creating /home/akshay/iiit_ws/install/darm/share/darm/models
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/LICENSE
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/LICENSE
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/meshes/OakDLite.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/meshes/OakDLite.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/meshes/OakDLite.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/2.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/2.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/2.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/3.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/3.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/3.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/4.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/4.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/4.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/5.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/5.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/5.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/1.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/1.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/1.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lawnmower/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lawnmower/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/meshes/wheel_link.STL
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lawnmower/meshes/wheel_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/meshes/wheel_link.STL
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/spacecraft_2d
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/spacecraft_2d/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/spacecraft_2d/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/spacecraft_2d/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/tiltrotor/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/tiltrotor/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/airspeed/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/airspeed/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/LW20/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/LW20/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/meshes/LW20.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/LW20/meshes/LW20.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/meshes/LW20.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_horizontal_arm_remeshed_v1.stl
+symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/meshes/cgo3_horizontal_arm_remeshed_v1.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_horizontal_arm_remeshed_v1.stl
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_mount_remeshed_v1.stl
+symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/meshes/cgo3_mount_remeshed_v1.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_mount_remeshed_v1.stl
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_camera_remeshed_v1.stl
+symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/meshes/cgo3_camera_remeshed_v1.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_camera_remeshed_v1.stl
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_vertical_arm_remeshed_v1.stl
+symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/meshes/cgo3_vertical_arm_remeshed_v1.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_vertical_arm_remeshed_v1.stl
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/iris_prop_ccw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/iris_prop_ccw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/rudder.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/rudder.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/rudder.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/left_aileron.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/left_aileron.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/left_aileron.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/propeller_ccw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/propeller_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/propeller_ccw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/right_flap.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/right_flap.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/right_flap.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/right_aileron.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/right_aileron.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/right_aileron.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/elevators.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/elevators.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/elevators.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/left_flap.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/left_flap.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/left_flap.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/body.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/body.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/body.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/propeller_cw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/propeller_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/propeller_cw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/iris_prop_cw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/iris_prop_cw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/battery_link.STL
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/battery_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/battery_link.STL
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/antenna_link.STL
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/antenna_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/antenna_link.STL
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/chassis_link.STL
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/chassis_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/chassis_link.STL
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/wheel_link_simple.STL
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/wheel_link_simple.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/wheel_link_simple.STL
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/housing_link.STL
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/housing_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/housing_link.STL
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/top_link.STL
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/top_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/top_link.STL
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/wheel_link.STL
+symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/wheel_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/wheel_link.STL
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_2d/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_2d/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/optical_flow/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/optical_flow/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_mono_cam_down/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_mono_cam_down/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_gimbal/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_gimbal/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/moving_platform/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/moving_platform/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/iris_prop_ccw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/iris_prop_ccw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_elevon_right.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/x8_elevon_right.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_elevon_right.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_wing.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/x8_wing.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_wing.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/iris_prop_cw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/iris_prop_cw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_elevon_left.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/x8_elevon_left.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_elevon_left.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/iris_prop_ccw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/iris_prop_ccw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/body.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/meshes/body.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/body.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/iris_prop_cw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/iris_prop_cw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4vision_diagonal.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/thumbnails/px4vision_diagonal.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4vision_diagonal.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4_vision_front.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/thumbnails/px4_vision_front.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4_vision_front.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4_vision_top.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/thumbnails/px4_vision_top.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4_vision_top.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/advanced_plane/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/advanced_plane/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/LICENSE
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/LICENSE
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes/Wheel.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/meshes/Wheel.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes/Wheel.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes/MainBody.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/meshes/MainBody.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes/MainBody.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/helipad
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/helipad/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/helipad/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/helipad.jpg
+symbolically linking /home/akshay/iiit_ws/build/darm/models/helipad/helipad.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/helipad.jpg
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/omnicopter.stl
+symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/meshes/omnicopter.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/omnicopter.stl
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/iris_prop_ccw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/iris_prop_ccw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/iris_prop_cw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/iris_prop_cw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/thumbnails
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/thumbnails/omnicopter.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/thumbnails/omnicopter.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/thumbnails/omnicopter.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/atmos
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/atmos/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/atmos/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/atmos/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_vision/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_vision/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/uuv_bluerov2_heavy/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/uuv_bluerov2_heavy/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes/BlueROV2heavy.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/uuv_bluerov2_heavy/meshes/BlueROV2heavy.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes/BlueROV2heavy.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes/prop.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/uuv_bluerov2_heavy/meshes/prop.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes/prop.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/arucotag/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/arucotag/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/arucotag.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/arucotag/arucotag.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/arucotag.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.jpg
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.jpg
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/4.jpg
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/4.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/4.jpg
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/2.jpg
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/2.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/2.jpg
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/3.jpg
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/3.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/3.jpg
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/1.jpg
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/1.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/1.jpg
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/5.jpg
+symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/5.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/5.jpg
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/LICENSE
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/LICENSE
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/2.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/2.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/2.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/3.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/3.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/3.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/4.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/4.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/4.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/5.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/5.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/5.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/1.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/1.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/1.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_front/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_front/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_down/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_down/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/LICENSE
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/LICENSE
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/1345_prop_ccw.stl
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/1345_prop_ccw.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/1345_prop_ccw.stl
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/CF.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/CF.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/CF.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/NXP-HGD-CF.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/NXP-HGD-CF.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/NXP-HGD-CF.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/1345_prop_cw.stl
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/1345_prop_cw.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/1345_prop_cw.stl
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/5010Bell.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/5010Bell.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/5010Bell.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/5010Base.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/5010Base.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/5010Base.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/nxp.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/materials/textures/nxp.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/nxp.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/CF.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/materials/textures/CF.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/CF.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/rd.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/materials/textures/rd.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/rd.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/2.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/2.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/2.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/3.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/3.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/3.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/4.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/4.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/4.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/5.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/5.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/5.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/1.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/1.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/1.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/LICENSE
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/LICENSE
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/2.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/2.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/2.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/3.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/3.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/3.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/4.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/4.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/4.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/5.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/5.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/5.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/1.png
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/1.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/1.png
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_flow/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_flow/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_differential/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_differential/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes/rover_differential_wheel.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_differential/meshes/rover_differential_wheel.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes/rover_differential_wheel.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes/rover_differential_base.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_differential/meshes/rover_differential_base.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes/rover_differential_base.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/iris_prop_ccw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/iris_prop_ccw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/body.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/meshes/body.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/body.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/iris_prop_cw.dae
+symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/iris_prop_cw.dae
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/mono_cam/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/mono_cam/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam/model.config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam/model.sdf
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_mono_cam/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam/model.sdf
+creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam/model.config
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_mono_cam/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam/model.config

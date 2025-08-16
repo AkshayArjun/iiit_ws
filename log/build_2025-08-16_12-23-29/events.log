@@ -1,0 +1,411 @@
+[0.000000] (-) TimerEvent: {}
+[0.000190] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000230] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000286] (darm) JobQueued: {'identifier': 'darm', 'dependencies': OrderedDict([('px4_msgs', '/home/akshay/iiit_ws/install/px4_msgs')])}
+[0.000332] (darm) JobStarted: {'identifier': 'darm'}
+[0.099357] (-) TimerEvent: {}
+[0.199691] (-) TimerEvent: {}
+[0.300159] (-) TimerEvent: {}
+[0.400464] (-) TimerEvent: {}
+[0.500828] (-) TimerEvent: {}
+[0.526678] (darm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/akshay/iiit_ws/build/darm/build', '--no-deps', 'symlink_data'], 'cwd': '/home/akshay/iiit_ws/build/darm', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'akshay', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/akshay/iiit_ws/install/px4_msgs/lib:/home/akshay/iiit_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/akshay', 'OLDPWD': '/home/akshay', 'DESKTOP_SESSION': 'ubuntu-wayland', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1910', 'SYSTEMD_EXEC_PID': '2101', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3713', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/akshay/iiit_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'akshay', 'JOURNAL_STREAM': '8:18040', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akshay', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/akshay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/AK-ROG:@/tmp/.ICE-unix/2072,unix/AK-ROG:/tmp/.ICE-unix/2072', 'INVOCATION_ID': '8beee0a5b28b4a9ca875609017a68082', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3DLWB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/akshay/iiit_ws/install/px4_ros_com:/home/akshay/iiit_ws/install/px4_msgs:/home/akshay/iiit_ws/install/darm:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:78b86776-863a-479d-818e-e3730332f831', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akshay/iiit_ws/build/darm', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/akshay/iiit_ws/build/darm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages:/home/akshay/iiit_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/akshay/iiit_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/akshay/iiit_ws/build/darm:/home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/akshay/iiit_ws/install/px4_msgs:/home/akshay/iiit_ws/install/px4_ros_com'}, 'shell': False}
+[0.600954] (-) TimerEvent: {}
+[0.701305] (-) TimerEvent: {}
+[0.729149] (darm) StdoutLine: {'line': b'running develop\n'}
+[0.801424] (-) TimerEvent: {}
+[0.851180] (darm) StdoutLine: {'line': b'running egg_info\n'}
+[0.851434] (darm) StdoutLine: {'line': b'writing darm.egg-info/PKG-INFO\n'}
+[0.851599] (darm) StdoutLine: {'line': b'writing dependency_links to darm.egg-info/dependency_links.txt\n'}
+[0.851763] (darm) StdoutLine: {'line': b'writing entry points to darm.egg-info/entry_points.txt\n'}
+[0.851919] (darm) StdoutLine: {'line': b'writing requirements to darm.egg-info/requires.txt\n'}
+[0.852038] (darm) StdoutLine: {'line': b'writing top-level names to darm.egg-info/top_level.txt\n'}
+[0.854640] (darm) StdoutLine: {'line': b"reading manifest file 'darm.egg-info/SOURCES.txt'\n"}
+[0.856447] (darm) StdoutLine: {'line': b"writing manifest file 'darm.egg-info/SOURCES.txt'\n"}
+[0.857530] (darm) StdoutLine: {'line': b'running build_ext\n'}
+[0.857751] (darm) StdoutLine: {'line': b'Creating /home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages/darm.egg-link (link to .)\n'}
+[0.858362] (darm) StdoutLine: {'line': b'\n'}
+[0.858463] (darm) StdoutLine: {'line': b'Installed /home/akshay/iiit_ws/build/darm\n'}
+[0.858540] (darm) StdoutLine: {'line': b'running symlink_data\n'}
+[0.858840] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite\n'}
+[0.859000] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/model.sdf\n'}
+[0.859112] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/model.sdf\n'}
+[0.859198] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/LICENSE\n'}
+[0.859281] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/LICENSE\n'}
+[0.859388] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/model.config\n'}
+[0.859517] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/model.config\n'}
+[0.859614] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/meshes\n'}
+[0.859709] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/meshes/OakDLite.dae\n'}
+[0.859949] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/meshes/OakDLite.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/meshes/OakDLite.dae\n'}
+[0.860067] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails\n'}
+[0.860204] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/2.png\n'}
+[0.860303] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/2.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/2.png\n'}
+[0.860410] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/3.png\n'}
+[0.860510] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/3.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/3.png\n'}
+[0.860593] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/4.png\n'}
+[0.860674] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/4.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/4.png\n'}
+[0.860779] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/5.png\n'}
+[0.860842] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/5.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/5.png\n'}
+[0.860934] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/1.png\n'}
+[0.860987] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/thumbnails/1.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/OakD-Lite/thumbnails/1.png\n'}
+[0.861055] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower\n'}
+[0.861109] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/model.sdf\n'}
+[0.861161] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lawnmower/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/model.sdf\n'}
+[0.861222] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/model.config\n'}
+[0.861268] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lawnmower/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/model.config\n'}
+[0.861330] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/meshes\n'}
+[0.861382] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/meshes/wheel_link.STL\n'}
+[0.861443] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lawnmower/meshes/wheel_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/lawnmower/meshes/wheel_link.STL\n'}
+[0.861483] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/spacecraft_2d\n'}
+[0.861544] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/spacecraft_2d/model.sdf\n'}
+[0.861604] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/spacecraft_2d/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/spacecraft_2d/model.sdf\n'}
+[0.861669] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor\n'}
+[0.861737] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor/model.sdf\n'}
+[0.861790] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/tiltrotor/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor/model.sdf\n'}
+[0.861832] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor/model.config\n'}
+[0.861874] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/tiltrotor/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/tiltrotor/model.config\n'}
+[0.861914] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed\n'}
+[0.861955] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed/model.sdf\n'}
+[0.861995] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/airspeed/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed/model.sdf\n'}
+[0.862036] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed/model.config\n'}
+[0.862077] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/airspeed/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/airspeed/model.config\n'}
+[0.862119] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20\n'}
+[0.862160] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/model.sdf\n'}
+[0.862200] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/LW20/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/model.sdf\n'}
+[0.862241] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/model.config\n'}
+[0.862297] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/LW20/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/model.config\n'}
+[0.862377] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/meshes\n'}
+[0.862421] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/meshes/LW20.dae\n'}
+[0.862463] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/LW20/meshes/LW20.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/LW20/meshes/LW20.dae\n'}
+[0.862504] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal\n'}
+[0.862567] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/model.sdf\n'}
+[0.862606] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/model.sdf\n'}
+[0.862647] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/model.config\n'}
+[0.862687] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/model.config\n'}
+[0.862761] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes\n'}
+[0.862818] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_horizontal_arm_remeshed_v1.stl\n'}
+[0.862859] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/meshes/cgo3_horizontal_arm_remeshed_v1.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_horizontal_arm_remeshed_v1.stl\n'}
+[0.862901] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_mount_remeshed_v1.stl\n'}
+[0.862955] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/meshes/cgo3_mount_remeshed_v1.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_mount_remeshed_v1.stl\n'}
+[0.862997] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_camera_remeshed_v1.stl\n'}
+[0.863038] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/meshes/cgo3_camera_remeshed_v1.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_camera_remeshed_v1.stl\n'}
+[0.863078] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_vertical_arm_remeshed_v1.stl\n'}
+[0.863118] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/gimbal/meshes/cgo3_vertical_arm_remeshed_v1.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/gimbal/meshes/cgo3_vertical_arm_remeshed_v1.stl\n'}
+[0.863159] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna\n'}
+[0.863199] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/model.sdf\n'}
+[0.863268] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/model.sdf\n'}
+[0.863320] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/model.config\n'}
+[0.863362] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/model.config\n'}
+[0.863402] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes\n'}
+[0.863442] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/iris_prop_ccw.dae\n'}
+[0.863482] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/iris_prop_ccw.dae\n'}
+[0.863523] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/rudder.dae\n'}
+[0.863563] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/rudder.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/rudder.dae\n'}
+[0.863602] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/left_aileron.dae\n'}
+[0.863641] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/left_aileron.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/left_aileron.dae\n'}
+[0.863681] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/propeller_ccw.dae\n'}
+[0.863767] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/propeller_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/propeller_ccw.dae\n'}
+[0.863812] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/right_flap.dae\n'}
+[0.863853] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/right_flap.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/right_flap.dae\n'}
+[0.863893] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/right_aileron.dae\n'}
+[0.863934] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/right_aileron.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/right_aileron.dae\n'}
+[0.863997] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/elevators.dae\n'}
+[0.864039] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/elevators.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/elevators.dae\n'}
+[0.864080] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/left_flap.dae\n'}
+[0.864140] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/left_flap.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/left_flap.dae\n'}
+[0.864183] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/body.dae\n'}
+[0.864224] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/body.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/body.dae\n'}
+[0.864264] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/propeller_cw.dae\n'}
+[0.864304] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/propeller_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/propeller_cw.dae\n'}
+[0.864344] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/iris_prop_cw.dae\n'}
+[0.864383] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rc_cessna/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rc_cessna/meshes/iris_prop_cw.dae\n'}
+[0.864422] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover\n'}
+[0.864490] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/model.sdf\n'}
+[0.864534] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/model.sdf\n'}
+[0.864590] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/model.config\n'}
+[0.864630] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/model.config\n'}
+[0.864670] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes\n'}
+[0.864743] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/battery_link.STL\n'}
+[0.864795] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/battery_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/battery_link.STL\n'}
+[0.864842] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/antenna_link.STL\n'}
+[0.864880] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/antenna_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/antenna_link.STL\n'}
+[0.864920] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/chassis_link.STL\n'}
+[0.864959] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/chassis_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/chassis_link.STL\n'}
+[0.865000] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/wheel_link_simple.STL\n'}
+[0.865040] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/wheel_link_simple.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/wheel_link_simple.STL\n'}
+[0.865107] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/housing_link.STL\n'}
+[0.865147] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/housing_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/housing_link.STL\n'}
+[0.865187] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/top_link.STL\n'}
+[0.865227] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/top_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/top_link.STL\n'}
+[0.865267] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/wheel_link.STL\n'}
+[0.865323] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/r1_rover/meshes/wheel_link.STL -> /home/akshay/iiit_ws/install/darm/share/darm/models/r1_rover/meshes/wheel_link.STL\n'}
+[0.865365] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d\n'}
+[0.865405] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d/model.sdf\n'}
+[0.865445] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_2d/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d/model.sdf\n'}
+[0.865493] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d/model.config\n'}
+[0.865534] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_2d/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_2d/model.config\n'}
+[0.865590] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow\n'}
+[0.865634] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow/model.sdf\n'}
+[0.865675] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/optical_flow/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow/model.sdf\n'}
+[0.865741] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow/model.config\n'}
+[0.865794] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/optical_flow/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/optical_flow/model.config\n'}
+[0.865843] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down\n'}
+[0.865884] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down/model.sdf\n'}
+[0.865925] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_mono_cam_down/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down/model.sdf\n'}
+[0.865966] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down/model.config\n'}
+[0.866029] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_mono_cam_down/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam_down/model.config\n'}
+[0.866081] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal\n'}
+[0.866121] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal/model.sdf\n'}
+[0.866161] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_gimbal/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal/model.sdf\n'}
+[0.866201] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal/model.config\n'}
+[0.866262] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_gimbal/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_gimbal/model.config\n'}
+[0.866302] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform\n'}
+[0.866342] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform/model.sdf\n'}
+[0.866382] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/moving_platform/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform/model.sdf\n'}
+[0.866443] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform/model.config\n'}
+[0.866485] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/moving_platform/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/moving_platform/model.config\n'}
+[0.866525] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol\n'}
+[0.866564] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/model.sdf\n'}
+[0.866623] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/model.sdf\n'}
+[0.866672] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/model.config\n'}
+[0.866727] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/model.config\n'}
+[0.866770] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes\n'}
+[0.866825] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/iris_prop_ccw.dae\n'}
+[0.866871] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/iris_prop_ccw.dae\n'}
+[0.866910] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_elevon_right.dae\n'}
+[0.866950] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/x8_elevon_right.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_elevon_right.dae\n'}
+[0.866995] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_wing.dae\n'}
+[0.867055] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/x8_wing.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_wing.dae\n'}
+[0.867099] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/iris_prop_cw.dae\n'}
+[0.867157] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/iris_prop_cw.dae\n'}
+[0.867205] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_elevon_left.dae\n'}
+[0.867244] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/standard_vtol/meshes/x8_elevon_left.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/standard_vtol/meshes/x8_elevon_left.dae\n'}
+[0.867303] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision\n'}
+[0.867350] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/model.sdf\n'}
+[0.867390] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/model.sdf\n'}
+[0.867448] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/model.config\n'}
+[0.867491] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/model.config\n'}
+[0.867550] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes\n'}
+[0.867592] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/iris_prop_ccw.dae\n'}
+[0.867632] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/iris_prop_ccw.dae\n'}
+[0.867689] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/body.dae\n'}
+[0.867757] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/meshes/body.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/body.dae\n'}
+[0.867807] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/iris_prop_cw.dae\n'}
+[0.867855] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/meshes/iris_prop_cw.dae\n'}
+[0.867896] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails\n'}
+[0.867964] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4vision_diagonal.png\n'}
+[0.868005] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/thumbnails/px4vision_diagonal.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4vision_diagonal.png\n'}
+[0.868051] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4_vision_front.png\n'}
+[0.868091] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/thumbnails/px4_vision_front.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4_vision_front.png\n'}
+[0.868149] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4_vision_top.png\n'}
+[0.868190] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/px4vision/thumbnails/px4_vision_top.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/px4vision/thumbnails/px4_vision_top.png\n'}
+[0.868248] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane\n'}
+[0.868290] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane/model.sdf\n'}
+[0.868347] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/advanced_plane/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane/model.sdf\n'}
+[0.868398] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane/model.config\n'}
+[0.868461] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/advanced_plane/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/advanced_plane/model.config\n'}
+[0.868499] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann\n'}
+[0.868550] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/model.sdf\n'}
+[0.868591] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/model.sdf\n'}
+[0.868648] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/LICENSE\n'}
+[0.868691] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/LICENSE\n'}
+[0.868769] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/model.config\n'}
+[0.868813] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/model.config\n'}
+[0.868875] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes\n'}
+[0.868916] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes/Wheel.dae\n'}
+[0.868964] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/meshes/Wheel.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes/Wheel.dae\n'}
+[0.869004] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes/MainBody.dae\n'}
+[0.869063] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_ackermann/meshes/MainBody.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_ackermann/meshes/MainBody.dae\n'}
+[0.869107] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/helipad\n'}
+[0.869166] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/model.sdf\n'}
+[0.869208] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/helipad/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/model.sdf\n'}
+[0.869249] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/model.config\n'}
+[0.869309] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/helipad/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/model.config\n'}
+[0.869358] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/helipad.jpg\n'}
+[0.869398] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/helipad/helipad.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/helipad/helipad.jpg\n'}
+[0.869439] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter\n'}
+[0.869496] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/model.sdf\n'}
+[0.869538] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/model.sdf\n'}
+[0.869579] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/model.config\n'}
+[0.869639] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/model.config\n'}
+[0.869682] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes\n'}
+[0.869746] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/omnicopter.stl\n'}
+[0.869789] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/meshes/omnicopter.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/omnicopter.stl\n'}
+[0.869836] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/iris_prop_ccw.dae\n'}
+[0.869877] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/iris_prop_ccw.dae\n'}
+[0.869941] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/iris_prop_cw.dae\n'}
+[0.869989] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/meshes/iris_prop_cw.dae\n'}
+[0.870039] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/thumbnails\n'}
+[0.870079] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/thumbnails/omnicopter.png\n'}
+[0.870120] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/omnicopter/thumbnails/omnicopter.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/omnicopter/thumbnails/omnicopter.png\n'}
+[0.870180] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/atmos\n'}
+[0.870223] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/atmos/model.sdf\n'}
+[0.870263] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/atmos/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/atmos/model.sdf\n'}
+[0.870323] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision\n'}
+[0.870366] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision/model.sdf\n'}
+[0.870406] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_vision/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision/model.sdf\n'}
+[0.870465] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision/model.config\n'}
+[0.870507] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_vision/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_vision/model.config\n'}
+[0.870548] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy\n'}
+[0.870608] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/model.sdf\n'}
+[0.870648] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/uuv_bluerov2_heavy/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/model.sdf\n'}
+[0.870688] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/model.config\n'}
+[0.870757] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/uuv_bluerov2_heavy/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/model.config\n'}
+[0.870805] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes\n'}
+[0.870843] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes/BlueROV2heavy.dae\n'}
+[0.870882] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/uuv_bluerov2_heavy/meshes/BlueROV2heavy.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes/BlueROV2heavy.dae\n'}
+[0.870941] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes/prop.dae\n'}
+[0.870989] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/uuv_bluerov2_heavy/meshes/prop.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/uuv_bluerov2_heavy/meshes/prop.dae\n'}
+[0.871049] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag\n'}
+[0.871090] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/model.sdf\n'}
+[0.871145] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/arucotag/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/model.sdf\n'}
+[0.871184] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/model.config\n'}
+[0.871224] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/arucotag/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/model.config\n'}
+[0.871282] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/arucotag.png\n'}
+[0.871324] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/arucotag/arucotag.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/arucotag/arucotag.png\n'}
+[0.871381] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2\n'}
+[0.871429] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/model.sdf\n'}
+[0.871468] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/model.sdf\n'}
+[0.871524] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/model.config\n'}
+[0.871574] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/model.config\n'}
+[0.871615] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes\n'}
+[0.871672] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.jpg\n'}
+[0.871737] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.jpg\n'}
+[0.871788] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.dae\n'}
+[0.871828] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/meshes/lidar_2d_v2.dae\n'}
+[0.871885] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails\n'}
+[0.871928] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/4.jpg\n'}
+[0.871986] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/4.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/4.jpg\n'}
+[0.872028] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/2.jpg\n'}
+[0.872085] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/2.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/2.jpg\n'}
+[0.872127] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/3.jpg\n'}
+[0.872184] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/3.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/3.jpg\n'}
+[0.872232] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/1.jpg\n'}
+[0.872290] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/1.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/1.jpg\n'}
+[0.872331] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/5.jpg\n'}
+[0.872388] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/lidar_2d_v2/thumbnails/5.jpg -> /home/akshay/iiit_ws/install/darm/share/darm/models/lidar_2d_v2/thumbnails/5.jpg\n'}
+[0.872430] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth\n'}
+[0.872487] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/model.sdf\n'}
+[0.872528] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/model.sdf\n'}
+[0.872586] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/LICENSE\n'}
+[0.872629] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/LICENSE\n'}
+[0.872686] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/model.config\n'}
+[0.872757] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/model.config\n'}
+[0.872805] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails\n'}
+[0.872855] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/2.png\n'}
+[0.872904] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/2.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/2.png\n'}
+[0.872944] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/3.png\n'}
+[0.873001] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/3.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/3.png\n'}
+[0.873043] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/4.png\n'}
+[0.873100] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/4.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/4.png\n'}
+[0.873151] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/5.png\n'}
+[0.873196] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/5.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/5.png\n'}
+[0.873234] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/1.png\n'}
+[0.873291] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_depth/thumbnails/1.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_depth/thumbnails/1.png\n'}
+[0.873331] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front\n'}
+[0.873387] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front/model.sdf\n'}
+[0.873432] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_front/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front/model.sdf\n'}
+[0.873489] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front/model.config\n'}
+[0.873530] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_front/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_front/model.config\n'}
+[0.873588] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down\n'}
+[0.873628] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down/model.sdf\n'}
+[0.873677] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_down/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down/model.sdf\n'}
+[0.873741] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down/model.config\n'}
+[0.873792] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_lidar_down/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_lidar_down/model.config\n'}
+[0.873851] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base\n'}
+[0.873899] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/model.sdf\n'}
+[0.873939] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/model.sdf\n'}
+[0.873996] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/LICENSE\n'}
+[0.874037] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/LICENSE\n'}
+[0.874094] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/model.config\n'}
+[0.874133] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/model.config\n'}
+[0.874180] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes\n'}
+[0.874237] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/1345_prop_ccw.stl\n'}
+[0.874277] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/1345_prop_ccw.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/1345_prop_ccw.stl\n'}
+[0.874329] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/CF.png\n'}
+[0.874382] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/CF.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/CF.png\n'}
+[0.874436] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/NXP-HGD-CF.dae\n'}
+[0.874486] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/NXP-HGD-CF.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/NXP-HGD-CF.dae\n'}
+[0.874535] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/1345_prop_cw.stl\n'}
+[0.874581] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/1345_prop_cw.stl -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/1345_prop_cw.stl\n'}
+[0.874633] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/5010Bell.dae\n'}
+[0.874688] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/5010Bell.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/5010Bell.dae\n'}
+[0.874744] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/5010Base.dae\n'}
+[0.874791] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/meshes/5010Base.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/meshes/5010Base.dae\n'}
+[0.874843] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials\n'}
+[0.874902] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures\n'}
+[0.874943] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/nxp.png\n'}
+[0.874996] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/materials/textures/nxp.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/nxp.png\n'}
+[0.875051] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/CF.png\n'}
+[0.875097] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/materials/textures/CF.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/CF.png\n'}
+[0.875150] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/rd.png\n'}
+[0.875205] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/materials/textures/rd.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/materials/textures/rd.png\n'}
+[0.875264] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails\n'}
+[0.875306] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/2.png\n'}
+[0.875365] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/2.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/2.png\n'}
+[0.875405] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/3.png\n'}
+[0.875451] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/3.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/3.png\n'}
+[0.875504] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/4.png\n'}
+[0.875558] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/4.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/4.png\n'}
+[0.875612] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/5.png\n'}
+[0.875665] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/5.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/5.png\n'}
+[0.875728] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/1.png\n'}
+[0.875785] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/thumbnails/1.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_base/thumbnails/1.png\n'}
+[0.875845] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500\n'}
+[0.875886] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/model.sdf\n'}
+[0.875931] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/model.sdf\n'}
+[0.875988] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/LICENSE\n'}
+[0.876030] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/LICENSE -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/LICENSE\n'}
+[0.876088] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/model.config\n'}
+[0.876139] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/model.config\n'}
+[0.876181] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails\n'}
+[0.876240] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/2.png\n'}
+[0.876288] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/2.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/2.png\n'}
+[0.876333] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/3.png\n'}
+[0.876373] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/3.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/3.png\n'}
+[0.876430] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/4.png\n'}
+[0.876479] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/4.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/4.png\n'}
+[0.876517] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/5.png\n'}
+[0.876574] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/5.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/5.png\n'}
+[0.876615] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/1.png\n'}
+[0.876672] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500/thumbnails/1.png -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500/thumbnails/1.png\n'}
+[0.876736] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow\n'}
+[0.876781] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow/model.sdf\n'}
+[0.876840] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_flow/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow/model.sdf\n'}
+[0.876901] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow/model.config\n'}
+[0.876940] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_flow/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_flow/model.config\n'}
+[0.876997] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential\n'}
+[0.877041] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/model.sdf\n'}
+[0.877099] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_differential/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/model.sdf\n'}
+[0.877145] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/model.config\n'}
+[0.877189] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_differential/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/model.config\n'}
+[0.877235] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes\n'}
+[0.877295] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes/rover_differential_wheel.dae\n'}
+[0.877337] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_differential/meshes/rover_differential_wheel.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes/rover_differential_wheel.dae\n'}
+[0.877397] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes/rover_differential_base.dae\n'}
+[0.877438] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/rover_differential/meshes/rover_differential_base.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/rover_differential/meshes/rover_differential_base.dae\n'}
+[0.877498] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter\n'}
+[0.877540] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/model.sdf\n'}
+[0.877598] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/model.sdf\n'}
+[0.877645] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/model.config\n'}
+[0.877682] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/model.config\n'}
+[0.877749] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes\n'}
+[0.877792] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/iris_prop_ccw.dae\n'}
+[0.877850] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/meshes/iris_prop_ccw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/iris_prop_ccw.dae\n'}
+[0.877909] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/body.dae\n'}
+[0.877950] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/meshes/body.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/body.dae\n'}
+[0.878009] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/iris_prop_cw.dae\n'}
+[0.878050] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/quadtailsitter/meshes/iris_prop_cw.dae -> /home/akshay/iiit_ws/install/darm/share/darm/models/quadtailsitter/meshes/iris_prop_cw.dae\n'}
+[0.878109] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam\n'}
+[0.878151] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam/model.sdf\n'}
+[0.878208] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/mono_cam/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam/model.sdf\n'}
+[0.878251] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam/model.config\n'}
+[0.878307] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/mono_cam/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/mono_cam/model.config\n'}
+[0.878350] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam\n'}
+[0.878405] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam/model.sdf\n'}
+[0.878459] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_mono_cam/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam/model.sdf\n'}
+[0.878519] (darm) StdoutLine: {'line': b'creating /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam/model.config\n'}
+[0.878573] (darm) StdoutLine: {'line': b'symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_mono_cam/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models/x500_mono_cam/model.config\n'}
+[0.901565] (-) TimerEvent: {}
+[0.904025] (darm) CommandEnded: {'returncode': 0}
+[0.921968] (darm) JobEnded: {'identifier': 'darm', 'rc': 0}
+[0.922762] (-) EventReactorShutdown: {}

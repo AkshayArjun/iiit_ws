@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing darm.egg-info/PKG-INFO
+writing dependency_links to darm.egg-info/dependency_links.txt
+writing entry points to darm.egg-info/entry_points.txt
+writing requirements to darm.egg-info/requires.txt
+writing top-level names to darm.egg-info/top_level.txt
+reading manifest file 'darm.egg-info/SOURCES.txt'
+writing manifest file 'darm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages/darm.egg-link (link to .)
+
+Installed /home/akshay/iiit_ws/build/darm
+running symlink_data
+creating /home/akshay/iiit_ws/install/darm/share/darm/launch
+symbolically linking /home/akshay/iiit_ws/build/darm/launch/simple.launch.py -> /home/akshay/iiit_ws/install/darm/share/darm/launch
+symbolically linking /home/akshay/iiit_ws/build/darm/launch/trial.launch.py -> /home/akshay/iiit_ws/install/darm/share/darm/launch
+creating /home/akshay/iiit_ws/install/darm/share/darm/config
+symbolically linking /home/akshay/iiit_ws/build/darm/config/arm_control.yaml -> /home/akshay/iiit_ws/install/darm/share/darm/config
+creating /home/akshay/iiit_ws/install/darm/share/darm/models
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/model.config -> /home/akshay/iiit_ws/install/darm/share/darm/models
+symbolically linking /home/akshay/iiit_ws/build/darm/models/OakD-Lite/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models
+symbolically linking /home/akshay/iiit_ws/build/darm/models/x500_base/model.sdf -> /home/akshay/iiit_ws/install/darm/share/darm/models

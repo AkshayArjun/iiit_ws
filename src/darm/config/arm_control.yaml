@@ -1,0 +1,33 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    yaw_position_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    pitch_position_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+yaw_position_controller:
+  ros__parameters:
+    joints:
+      - joint1
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+    state_publish_rate: 100.0
+
+
+pitch_position_controller:
+  ros__parameters:
+    joints:
+      - joint2
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+    state_publish_rate: 100.0

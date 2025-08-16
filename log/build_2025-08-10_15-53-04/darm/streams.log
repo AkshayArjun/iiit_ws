@@ -1,0 +1,23 @@
+[0.505s] Invoking command in '/home/akshay/iiit_ws/build/darm': PYTHONPATH=/home/akshay/iiit_ws/build/darm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/akshay/iiit_ws/build/darm/build --no-deps symlink_data
+[0.703s] running develop
+[0.825s] running egg_info
+[0.825s] creating darm.egg-info
+[0.826s] writing darm.egg-info/PKG-INFO
+[0.826s] writing dependency_links to darm.egg-info/dependency_links.txt
+[0.826s] writing entry points to darm.egg-info/entry_points.txt
+[0.826s] writing requirements to darm.egg-info/requires.txt
+[0.826s] writing top-level names to darm.egg-info/top_level.txt
+[0.826s] writing manifest file 'darm.egg-info/SOURCES.txt'
+[0.827s] reading manifest file 'darm.egg-info/SOURCES.txt'
+[0.828s] writing manifest file 'darm.egg-info/SOURCES.txt'
+[0.829s] running build_ext
+[0.829s] Creating /home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages/darm.egg-link (link to .)
+[0.829s] 
+[0.830s] Installed /home/akshay/iiit_ws/build/darm
+[0.830s] running symlink_data
+[0.830s] creating /home/akshay/iiit_ws/install/darm/share/ament_index
+[0.830s] creating /home/akshay/iiit_ws/install/darm/share/ament_index/resource_index
+[0.830s] creating /home/akshay/iiit_ws/install/darm/share/ament_index/resource_index/packages
+[0.830s] symbolically linking /home/akshay/iiit_ws/build/darm/resource/darm -> /home/akshay/iiit_ws/install/darm/share/ament_index/resource_index/packages
+[0.830s] symbolically linking /home/akshay/iiit_ws/build/darm/package.xml -> /home/akshay/iiit_ws/install/darm/share/darm
+[0.861s] Invoked command in '/home/akshay/iiit_ws/build/darm' returned '0': PYTHONPATH=/home/akshay/iiit_ws/build/darm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/akshay/iiit_ws/build/darm/build --no-deps symlink_data
