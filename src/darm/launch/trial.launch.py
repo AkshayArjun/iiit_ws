@@ -18,6 +18,7 @@ def generate_launch_description():
 
     xacro_file = os.path.join(pkg_project_description, 'urdf', 'x500_base', 'robot.urdf.xacro')
     doc = xacro.process_file(xacro_file)
+
     # ros_gz_share = get_package_share_directory('ros_gz_sim')
 
     
@@ -42,7 +43,7 @@ def generate_launch_description():
         [
             FindPackageShare('darm'),
             'config',
-            'arm_control.yaml',
+            'arm_p_control.yaml',
         ]
     )
     rsp = Node(
@@ -119,6 +120,7 @@ def generate_launch_description():
                 arguments=['joint_state_broadcaster'],
                 output='screen'
             ),
+            # change <controller type_<controller_type>_controller as needed here: 
             Node(
                 package='controller_manager',
                 executable='spawner',
@@ -150,10 +152,10 @@ def generate_launch_description():
         *launch_env_vars,
         rsp,
         rviz,
-        # gazebo,
-        # gz_spawn_entity,
         gzbridge,
         spawners
+        # gazebo,
+        # gz_spawn_entity,
         # control_node,
         # joint_state_broadcaster_spawner,
         # left_tilt_spawner,

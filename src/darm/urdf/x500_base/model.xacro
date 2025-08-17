@@ -300,6 +300,24 @@
     <hardware>
         <plugin>gz_ros2_control/GazeboSimSystem</plugin>
     </hardware>
+
+    <!-- chose this for effort controller -->
+
+    <!-- <joint name = "joint1">
+      <command_interface name = "effort"/>
+      <state_interface name = "position"/>
+      <state_interface name = "velocity"/>
+      <state_interface name = "effort"/>
+    </joint>
+    <joint name = "joint2">
+      <command_interface name = "effort"/>
+      <state_interface name = "position"/>
+      <state_interface name = "velocity"/>
+      <state_interface name = "effort"/>
+    </joint> -->
+
+    <!-- this for position controller -->
+    
     <joint name = "joint1">
       <command_interface name = "position"/>
       <state_interface name = "position"/>

@@ -2,6 +2,7 @@ package.xml
 setup.cfg
 setup.py
 config/arm_control.yaml
+config/arm_p_control.yaml
 darm/__init__.py
 darm/sanity_tester.py
 darm.egg-info/PKG-INFO

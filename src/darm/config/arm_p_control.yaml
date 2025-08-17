@@ -5,32 +5,30 @@ controller_manager:
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-    yaw_effort_controller:
+    yaw_position_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-    pitch_effort_controller:
+    pitch_position_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-yaw_effort_controller:
+yaw_position_controller:
   ros__parameters:
     joints:
       - joint1
     command_interfaces:
-      - effort
+      - position
     state_interfaces:
       - position
-      - velocity
 
     state_publish_rate: 100.0
 
 
-pitch_effort_controller:
+pitch_position_controller:
   ros__parameters:
     joints:
       - joint2
     command_interfaces:
-      - effort
+      - position
     state_interfaces:
       - position
-      - velocity
     state_publish_rate: 100.0
