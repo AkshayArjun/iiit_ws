@@ -3,13 +3,17 @@
 
   <!-- Macro to declare ros2_control system -->
 
-    <xacro:macro name="ros2_control_block" params="joint_name">
-
-        <!-- Loop through all provided joints -->
-        <joint name="${joint_name}" >
-            <command_interface name="position"/>
-            <state_interface name="position"/>
-        </joint>
+    <xacro:macro name="arm_joint_control" params="joint_name link_name">
+        <transmission name="${joint_name}_transmission">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="${joint_name}">
+            <hardwareInterface>position</hardwareInterface>
+            </joint>
+            <actuator name="${link_name}">
+            <hardwareInterface>position</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+            </actuator>
+        </transmission>
     </xacro:macro>
 
 </robot>

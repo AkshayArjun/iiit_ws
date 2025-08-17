@@ -3,7 +3,7 @@
   <xacro:include filename="macros.xacro"/>
   <xacro:include filename="materials.xacro"/>
   <xacro:include filename="control.xacro"/>
-  <xacro:property name="mesh_prefix" value="package://darm/urdf"/>
+  <xacro:property name="mesh_prefix" value="file://$(find darm)/models"/>
   <link name="base_link">
     <inertial>
       <mass value="2.0"/>
@@ -247,6 +247,8 @@
       <axis xyz="0 0 1"/>
       <limit lower="-3.14" upper="3.14" effort="1" velocity="1"/>
   </joint>
+
+  <xacro:arm_joint_control joint_name="joint1" link_name="link1"/>
   <link name="link_sphere">
       <visual>
           <geometry>
@@ -270,6 +272,7 @@
       <axis xyz="1 0 0"/>
       <limit lower="-3.14" upper="3.14" effort="1" velocity="1"/>
   </joint>
+  <xacro:arm_joint_control joint_name="joint2" link_name="link_sphere"/>
   <link name="link2">
       <visual>
           <geometry>

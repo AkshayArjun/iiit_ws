@@ -190,3 +190,4 @@ urdf/x500_base/meshes/5010Base.dae
 urdf/x500_base/meshes/5010Bell.dae
 urdf/x500_base/meshes/CF.png
 urdf/x500_base/meshes/NXP-HGD-CF.dae
+worlds/test.sdf

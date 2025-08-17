@@ -14,6 +14,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')+ glob('launch/*.py')),
         (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.sdf')),
         *[
             (os.path.join('share', package_name, 'models', os.path.dirname(os.path.relpath(f, 'models'))), [f])
             for f in glob('models/**/*', recursive=True) if os.path.isfile(f)

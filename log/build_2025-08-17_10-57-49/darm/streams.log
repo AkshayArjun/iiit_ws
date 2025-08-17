@@ -1,0 +1,16 @@
+[0.623s] Invoking command in '/home/akshay/iiit_ws/build/darm': CMAKE_PREFIX_PATH=/home/akshay/iiit_ws/install/px4_msgs:/home/akshay/iiit_ws/install/px4_ros_com:/home/akshay/gz_ros2_control_ws/install/ign_ros2_control_demos:/home/akshay/gz_ros2_control_ws/install/ign_ros2_control:/home/akshay/gz_ros2_control_ws/install/gz_ros2_control_tests:/home/akshay/gz_ros2_control_ws/install/gz_ros2_control_demos:/home/akshay/gz_ros2_control_ws/install/gz_ros2_control LD_LIBRARY_PATH=/home/akshay/iiit_ws/install/px4_msgs/lib:/home/akshay/iiit_ws/install/px4_ros_com/lib:/home/akshay/gz_ros2_control_ws/install/gz_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/akshay/iiit_ws/build/darm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/akshay/iiit_ws/build/darm/build --no-deps symlink_data
+[0.835s] running develop
+[0.964s] running egg_info
+[0.964s] writing darm.egg-info/PKG-INFO
+[0.964s] writing dependency_links to darm.egg-info/dependency_links.txt
+[0.964s] writing entry points to darm.egg-info/entry_points.txt
+[0.965s] writing requirements to darm.egg-info/requires.txt
+[0.965s] writing top-level names to darm.egg-info/top_level.txt
+[0.968s] reading manifest file 'darm.egg-info/SOURCES.txt'
+[0.970s] writing manifest file 'darm.egg-info/SOURCES.txt'
+[0.972s] running build_ext
+[0.972s] Creating /home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages/darm.egg-link (link to .)
+[0.973s] 
+[0.973s] Installed /home/akshay/iiit_ws/build/darm
+[0.973s] running symlink_data
+[1.016s] Invoked command in '/home/akshay/iiit_ws/build/darm' returned '0': CMAKE_PREFIX_PATH=/home/akshay/iiit_ws/install/px4_msgs:/home/akshay/iiit_ws/install/px4_ros_com:/home/akshay/gz_ros2_control_ws/install/ign_ros2_control_demos:/home/akshay/gz_ros2_control_ws/install/ign_ros2_control:/home/akshay/gz_ros2_control_ws/install/gz_ros2_control_tests:/home/akshay/gz_ros2_control_ws/install/gz_ros2_control_demos:/home/akshay/gz_ros2_control_ws/install/gz_ros2_control LD_LIBRARY_PATH=/home/akshay/iiit_ws/install/px4_msgs/lib:/home/akshay/iiit_ws/install/px4_ros_com/lib:/home/akshay/gz_ros2_control_ws/install/gz_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/akshay/iiit_ws/build/darm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshay/iiit_ws/install/darm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/akshay/iiit_ws/build/darm/build --no-deps symlink_data

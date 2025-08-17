@@ -4,9 +4,9 @@
 	<xacro:include filename="model.xacro"/>
   <xacro:include filename="macros.xacro"/>
   <xacro:include filename="control.xacro"/>
-  <gazebo>
+  <!-- <gazebo>
     <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
       <parameters>package://darm/config/arm_control.yaml</parameters>
     </plugin>
-  </gazebo>
+  </gazebo> -->
 </robot>
